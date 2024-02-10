@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex min-h-screen flex-col p-4 max-w-4xl mx-auto mt-20 md:p-8">
+      <main className="flex min-h-screen flex-col p-4 max-w-5xl mx-auto mt-20 md:p-8">
         <div className="md:bg-[#2c3a8f] md:text-white flex items-center justify-center md:p-8">
           <Container>
             <h1>Developing Human-centric LLM Applications</h1>
-            <h3>ICML 2024 Workshop</h3>
+            <h3><i>ICML 2024 Workshop</i></h3>
           </Container>
         </div>
         <Container id="about">
